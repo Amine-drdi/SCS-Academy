@@ -31,7 +31,7 @@ const Slider = () => {
             Une plateforme pensée pour les bâtisseurs de demain : moderne, accessible, et faite pour vous.
           </motion.p>
           <motion.a
-            href="#formations"
+            href="/formations/categorie/btp"
              className="inline-block bg-orange-600 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold shadow-lg hover:shadow-orange-400/40 transition"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
