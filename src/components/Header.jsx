@@ -12,7 +12,7 @@ import {
   btpCategories,
   medicalCategories,
 } from "../assets/data/categories";
-
+import logo from "../assets/img/logo.png"
 const Header = () => {
   const { activeMenu, setActiveMenu, openSearchMenu, setOpenSearchMenu } =
     useAppContext();
@@ -83,7 +83,7 @@ const Header = () => {
           <NavLink to="/" className="">
             <img
               className="h-48 w-96"
-              src="/public/images/logo.png"
+              src={logo}
               alt="SCS Academy"
             />
           </NavLink>
