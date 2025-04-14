@@ -34,7 +34,7 @@ const Sidebar = () => {
           </svg>
         </button>
         <div className="px-5 pt-6 text-primary text-xl font-semibold">
-          <p>Lemida</p>
+          <p>SCS Academy</p>
         </div>
         <div className="flex flex-col px-5 py-[50px] text-xl text-nav_color/85 font-semibold leading-[45px]">
           <div className="flex flex-col justify-center">
@@ -44,7 +44,7 @@ const Sidebar = () => {
           </div>
           <div className="flex flex-col justify-center">
             <NavLink
-              to="/AllTrainings"
+              to="/formations/categorie/btp"
               onClick={() => setActiveMenu(!activeMenu)}
             >
               Formations
@@ -89,7 +89,7 @@ const Sidebar = () => {
           >
             Mentions légales
           </NavLink>
-          <p className="mt-6">&copy; 2025 Lemida.  Tous droits réservés</p>
+          <p className="mt-6">&copy; 2025 SCS Academy.  Tous droits réservés</p>
         </div>
       </div>
     </div>

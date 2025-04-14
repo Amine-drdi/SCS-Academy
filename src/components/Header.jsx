@@ -83,8 +83,8 @@ const Header = () => {
           <NavLink to="/" className="">
             <img
               className="h-48 w-96"
-              src="../../src/assets/img/logo.png"
-              alt="Lemida"
+              src="/public/images/logo.png"
+              alt="SCS Academy"
             />
           </NavLink>
         </div>
