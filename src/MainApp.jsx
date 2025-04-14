@@ -8,7 +8,7 @@ import Sidebar from "./components/Sidebar";
 import SearchSidebar from "./components/SearchSidebar";
 import ScrollToTop from "./components/ScrollToTop";
 import NewsLetter from "./components/NewsLetter";
-import Cookies from "./components/Cookies";
+
 
 function MainApp() {
   const { activeMenu, openSearchMenu } = useAppContext();
@@ -35,7 +35,7 @@ function MainApp() {
       </ScrollToTop>
       <NewsLetter />
       <Footer />
-    <Cookies/>
+   
       
 
     </div>
