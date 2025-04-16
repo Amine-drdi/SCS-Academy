@@ -97,7 +97,7 @@ const Card = (props) => {
             <div className="flex flex-row gap-2 items-center">
               <MdTimer className="w-5 h-5 text-white" />
               <span className="font-medium">
-                Durée : <span>{duration}</span>
+                Durée: <span>{duration}</span>
               </span>
             </div>
             <div className="flex flex-row gap-2 items-center">
