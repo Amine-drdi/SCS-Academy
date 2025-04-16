@@ -15,14 +15,14 @@ const TermsAndConditions = () => {
             <li className="text-primary font-bold">
             Objet
               <p className="text-black font-normal">
-              Les présentes Conditions Générales ont pour objet de définir les droits et obligations des utilisateurs et de Lemida dans le cadre de la navigation sur le site et de l’achat des formations en ligne.              </p>
+              Les présentes Conditions Générales ont pour objet de définir les droits et obligations des utilisateurs et de SCS Academy dans le cadre de la navigation sur le site et de l’achat des formations en ligne.              </p>
             </li>
             <li className="text-primary font-bold">
             Accès au site
               <ul className=" flex flex-col gap-3 text-black font-normal mt-3">
                 <li>
                  
-                  L'accès au site Lemida est libre et gratuit pour tout utilisateur disposant d'un accès Internet. Cependant, certaines parties du site et certaines formations sont accessibles uniquement aux utilisateurs ayant créé un compte.              
+                  L'accès au site SCS Academy est libre et gratuit pour tout utilisateur disposant d'un accès Internet. Cependant, certaines parties du site et certaines formations sont accessibles uniquement aux utilisateurs ayant créé un compte.              
               </li>
               
               </ul>
@@ -69,7 +69,7 @@ const TermsAndConditions = () => {
             <li className="text-primary font-bold">
               Tarifs
               <p className="font-normal text-black mt-3">
-              Les prix des formations sont affichés en euros et incluent toutes taxes applicables. Lemida se réserve le droit de modifier ses prix à tout moment, mais les formations déjà achetées restent au prix convenu lors de l'achat.
+              Les prix des formations sont affichés en euros et incluent toutes taxes applicables. SCS Academy se réserve le droit de modifier ses prix à tout moment, mais les formations déjà achetées restent au prix convenu lors de l'achat.
               </p>
             </li>
             <li className="text-primary font-bold">
@@ -77,12 +77,12 @@ const TermsAndConditions = () => {
             
               <ol className="list-decimal list-inside font-normal text-black mt-3">
                 <li>
-                 Lemida met tout en œuvre pour assurer un accès permanent au site, mais ne garantit pas l’absence d’interruptions temporaires.               
+                 SCS Academy met tout en œuvre pour assurer un accès permanent au site, mais ne garantit pas l’absence d’interruptions temporaires.               
                  </li>
                 <li>
                 L’utilisateur est responsable de son matériel et de sa connexion Internet.
                 </li>
-                <li>Lemida ne pourra être tenu responsable d’une mauvaise application des formations par l’utilisateur.</li>
+                <li>SCS Academy ne pourra être tenu responsable d’une mauvaise application des formations par l’utilisateur.</li>
              
               </ol>
             </li>
@@ -101,7 +101,7 @@ const TermsAndConditions = () => {
             <li className="text-primary font-bold">
             Résiliation et suppression de compte
                <p className="text-black font-normal mt-3">
-               Lemida se réserve le droit de suspendre ou de supprimer un compte en cas de non-respect des CGU/CGV ou de fraude.              </p>
+               SCS Academy se réserve le droit de suspendre ou de supprimer un compte en cas de non-respect des CGU/CGV ou de fraude.              </p>
              
             </li>
           </ol>
@@ -110,7 +110,7 @@ const TermsAndConditions = () => {
           <p className="text-base font-normal">
             Si vous avez des questions supplémentaires ou avez besoin de plus de précisions, veuillez nous contacter en envoyant un e-mail à la Société (
             <span className="text-[#006D75] underline">
-            contact@lemida.fr
+            contact@SCS Academy.fr
             </span>
             ).
           </p>

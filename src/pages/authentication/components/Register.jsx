@@ -39,12 +39,10 @@ const schema = yup.object().shape({
 });
 
 const Register = () => {
-  // const auth = useAuth();
-  const [signup, { isLoading }] = useRegisterMutation();
-  const navigate = useNavigate();
+  const [signup] = useRegisterMutation();
   const dispatch = useDispatch();
   const [showPassword, setShowPassword] = useState(false);
-  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+  const [showConfirmPassword] = useState(false);
 
   const togglePasswordVisibility = () => {
     setShowPassword((prev) => !prev);
@@ -88,9 +86,6 @@ const Register = () => {
     }
   };
 
-  // useEffect(() => {
-  //   if (auth.user) window.location.href = "/";
-  // }, []);
 
   return (
     <div className="w-full max-w-sm">

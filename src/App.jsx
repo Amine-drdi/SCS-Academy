@@ -1,4 +1,3 @@
-import "./App.css";
 import React from "react";
 import MainApp from "./MainApp";
 import LoadingSpinner from "./components/LoadingSpinner";

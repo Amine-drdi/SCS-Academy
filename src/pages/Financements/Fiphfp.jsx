@@ -1,13 +1,11 @@
-import React ,{useState} from 'react';
-import TableDesMatieres from './components/TableDeMatiere';
+import React  from 'react';
 import {finance } from '../../assets/data/trainings';
-import { FaUserTie, FaBriefcase, FaUserGraduate, FaUserClock, FaCheckCircle } from 'react-icons/fa';
+import { FaUserTie, FaCheckCircle } from 'react-icons/fa';
 import { MdOutlineMonetizationOn } from "react-icons/md";
 import { IoInformationCircleSharp } from "react-icons/io5";
 
 const Tab = () => {
   const found = finance.find((element) => element.id === 300);
-  const [activeTab, setActiveTab] = useState('aides');
 
    return (
      <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4 space-y-6">

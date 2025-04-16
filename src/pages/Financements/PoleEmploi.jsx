@@ -1,7 +1,6 @@
 import React from 'react';
-import TableDesMatieres from './components/TableDeMatiere';
 import { finance } from '../../assets/data/trainings';
-import { FaBuilding, FaHandsHelping, FaCheckCircle } from 'react-icons/fa';
+import { FaBuilding, FaHandsHelping } from 'react-icons/fa';
 const Tab = () => {
   const found = finance.find((element) => element.id === 400);
 

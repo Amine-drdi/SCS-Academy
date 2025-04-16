@@ -51,9 +51,7 @@ const EligibilityForm = ({ setShowEligibilityForm }) => {
   const submit = async (values) => {
     try {
       console.log(values);
-      // const user = await login(values).unwrap();
-      // dispatch(setCurrentUser(user));
-      // navigate("/");
+    
     } catch (error) {
       setError("email", {
         type: "manual",

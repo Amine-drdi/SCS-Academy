@@ -2,7 +2,7 @@ export const Commerce = [
     {
       id: 0,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Comprendre et négocier le bon incoterm 2020",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -65,7 +65,7 @@ programme: [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "EBP Gestion Commerciale",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -169,7 +169,7 @@ programme: [
     {
       id: 2,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "E-Commerce : Techniques de vente de produits et services sur Internet",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -244,7 +244,7 @@ programme: [
     },
     {
       id: 3,
-      image: "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+      image: "/images/programm_no_picture.png",
       title: "Gérer et manager son équipe en surface de vente",
       duration: "12H",
       instructors: "Jean-François Renucci",
@@ -358,7 +358,7 @@ programme: [
     {
       id: 4,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestion d'un magasin -Optimiser la performance commerciale de votre point de vente",
       duration: "18H",
       instructors: "Jean-François Renucci",
@@ -441,7 +441,7 @@ programme: [
     {
       id: 5,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestion d'un magasin -Optimiser la performance commerciale de votre point de vente (1 jour)",
       duration: "14H",
       instructors: "Jean-François Renucci",
@@ -524,7 +524,7 @@ programme: [
     {
       id: 6,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Maîtriser la stratégie et les techniques de prospection",
       duration: "30H",
       instructors: "Jean-François Renucci",
@@ -594,7 +594,7 @@ programme: [
     {
         id: 7,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Maîtriser les règles douanières pour le commerce international",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -662,7 +662,7 @@ programme: [
       {
         id: 8,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Optimiser et développer la Relation Client : Les enjeux clés",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -720,7 +720,7 @@ programme: [
       {
         id: 9,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Optimiser et développer la Relation Client : Les enjeux clés (1 jour)",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -776,7 +776,7 @@ programme: [
       {
         id: 10,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "VENTE EN BOUTIQUE ET TECHNIQUES DE VENTE ADDITIONNELLE",
         duration: "30H",
         instructors: "Jean-François Renucci",

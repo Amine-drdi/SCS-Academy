@@ -2,7 +2,7 @@ export const Marketing = [
     {
       id: 0,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Communication Marketing",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -100,7 +100,7 @@ programme: [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Google ADS (3 jours)",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -184,7 +184,7 @@ programme: [
     {
       id: 2,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Google référencement",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -259,7 +259,7 @@ programme: [
     {
       id: 3,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Initiation à Brevo et Approche Windows",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -315,7 +315,7 @@ programme: [
     },
     {
       id: 4,
-      image: "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+      image: "/images/programm_no_picture.png",
       title: "Marketing Digital et Réseaux Sociaux avec Canva",
       duration: "12H",
       instructors: "Jean-François Renucci",
@@ -390,7 +390,7 @@ programme: [
     {
       id: 5,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Mettre en place et piloter son plan de Marketing Digital (Facebook, Instagram)",
       duration: "18H",
       instructors: "Jean-François Renucci",
@@ -451,7 +451,7 @@ programme: [
     {
       id: 6,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Mettre en place et piloter son plan de Marketing Digital (Réseaux sociaux)",
       duration: "14H",
       instructors: "Jean-François Renucci",
@@ -533,7 +533,7 @@ programme: [
     {
       id: 7,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Mettre en place et piloter son plan de Marketing Digital (Réseaux sociaux) (1 jour)",
       duration: "30H",
       instructors: "Jean-François Renucci",
@@ -614,7 +614,7 @@ programme: [
     {
         id: 8,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Mettre en place et piloter son plan de Marketing Digital (Réseaux sociaux + référencement google)",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -693,7 +693,7 @@ programme: [
       {
         id: 9,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Mettre en place et piloter son plan de Marketing Digital (Réseaux sociaux + référencement google) (1 jour)",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -770,7 +770,7 @@ programme: [
       {
         id: 10,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Web Marketing - Prefectionnement",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -839,7 +839,7 @@ programme: [
       {
         id: 11,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Web Marketing - Prefectionnement - 3 Jours",
         duration: "30H",
         instructors: "Jean-François Renucci",

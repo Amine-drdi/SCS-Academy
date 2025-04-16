@@ -1,51 +1,25 @@
 import React, { useEffect, useRef, useState } from "react";
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { useAppContext } from "../app/context/AppContext";
 import {
   MdOutlineAccountCircle,
-  MdSearch,
   MdMenu,
 } from "react-icons/md";
 import { HiChevronDown } from "react-icons/hi";
 import {
-  administrativeCategories,
   btpCategories,
-  medicalCategories,
 } from "../assets/data/categories";
 import logo from "../assets/img/logo.png"
 const Header = () => {
-  const { activeMenu, setActiveMenu, openSearchMenu, setOpenSearchMenu } =
+  const { activeMenu, setActiveMenu } =
     useAppContext();
-  const [searchQuery, setSearchQuery] = useState("");
-  const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
   const location = useLocation();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const timeoutRef = useRef(null);
   
-  const handleOpenChange = (nextOpen) => {
-    setOpen(nextOpen);
-  };
 
-  const handleLogout = async () => {
-    try {
-    } catch (e) {}
-  };
-
-  const handleKeyPress = (e) => {
-    if (searchQuery.trim() !== "" && e.key === "Enter") {
-      navigate(`/formations/recherches?search=${searchQuery}`);
-      setSearchQuery("");
-    }
-  };
-
-  const handleSearch = () => {
-    if (searchQuery.trim() !== "") {
-      navigate(`/formations/recherches?search=${searchQuery}`);
-      setSearchQuery("");
-    }
-  };
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -88,17 +62,7 @@ const Header = () => {
             />
           </NavLink>
         </div>
-        <div className="lg:hidden flex gap-4">
-          <NavLink to="/connexion">
-            <MdOutlineAccountCircle className="w-8 h-8 text-[#141414]" />
-          </NavLink>
-          {/*<button
-            className="cursor-pointer"
-            onClick={() => setOpenSearchMenu(!openSearchMenu)}
-          >
-            <MdSearch className="w-8 h-8 text-[#141414]" />
-          </button>*/}
-        </div>
+ 
       </div>
 
       <div className="lg:flex hidden justify-end items-center xl:gap-10 gap-7 w-full h-full text-sm font-medium leading-[22px]">
@@ -135,8 +99,8 @@ const Header = () => {
     to="/formations/categorie/btp"
     className="flex items-center relative z-10 group-hover:text-orange-500 transition-all"
   >
-    Formations
-  </NavLink>
+    Formations 
+  </NavLink> 
   <HiChevronDown className="w-5 h-5 relative z-10 transition-all duration-300 group-hover:text-orange-500 group-hover:rotate-180" />
   <span
     className="absolute inset-0 -mx-2  opacity-0 group-hover:opacity-100 transition-all duration-300"

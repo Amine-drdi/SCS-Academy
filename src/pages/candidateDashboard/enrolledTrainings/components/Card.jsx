@@ -1,13 +1,13 @@
 import React from "react";
 import { MdFlag } from "react-icons/md";
 
-const Card = () => {
+const Card = () => { 
   return (
     <div className="flex lg:flex-row flex-col lg:gap-0 gap-4 lg:items-center justify-between w-full border border-gray-200 shadow-md p-4">
       <div className="flex md:flex-row flex-col md:items-center gap-4 lg:w-5/6 w-full">
         <div className="max-h-40 sm:min-h-40">
           <img
-            src="https://fac.img.pmdstatic.net/fit/~1~fac~2022~02~09~ba7ece74-7b5f-4b21-bf2e-e6f39ddf5f35.jpeg/1200x900/quality/80/crop-from/center/perfusion-definition-utilite-et-les-differents-types-de-perfusion.jpeg"
+            src="/images/perfusion-definition-utilite-et-les-differents-types-de-perfusion.jpeg"
             alt="card"
             className="object-cover max-h-40 sm:min-h-40 w-full"
           />

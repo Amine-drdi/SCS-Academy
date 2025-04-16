@@ -22,7 +22,7 @@ const FounderProfile = () => {
           <div className="flex items-center justify-center">
           <img 
             src="/images/zeno.jpeg" 
-            alt="Emmanuel Zenou - Fondateur de Lemida" 
+            alt="Emmanuel Zenou - Fondateur de SCS Academy" 
             className="rounded-lg shadow-md w-full h-auto max-w-[800px] md:max-w-[600px] sm:max-w-[500px] object-cover"
 />
           </div>
@@ -40,7 +40,7 @@ const FounderProfile = () => {
 
               <p>
                 Fort de plus de 10 ans d'expérience dans la formation professionnelle, 
-                Emmanuel a lancé Lemida en 2024 avec une ambition claire : faire profiter 
+                Emmanuel a lancé SCS Academy en 2024 avec une ambition claire : faire profiter 
                 un maximum de personnes de son expertise. Spécialisé dans les domaines du 
                 BTP, il a su s'entourer 
                 d'un réseau de partenaires pour proposer des formations adaptées à tous les profils.
@@ -60,7 +60,7 @@ const FounderProfile = () => {
 
               <div className="pt-4 border-t border-gray-200">
                 <p className="font-semibold text-primary">Emmanuel Zenou</p>
-                <p className="text-gray-600">Fondateur de Lemida</p>
+                <p className="text-gray-600">Fondateur de SCS Academy</p>
               </div>
             </div>
           </div>

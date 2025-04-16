@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import TopRated from "./components/TopRated";
-import Featured from "./components/Featured";
+ 
 import AllTrainings from "./components/AllTrainings";
 import { useLocation } from "react-router-dom";
 import { btpTrainings } from "../../assets/data/trainings";
@@ -8,31 +7,21 @@ import { btpTrainings } from "../../assets/data/trainings";
 const HealthAndConstructionTrainings = () => {
   const location = useLocation();
   const [trainingsList, setTrainingsList] = useState([]);
-  //const [trainingsBtpList, setTrainingsBList] = useState([]);
-
+ 
 
   useEffect(() => {
     const trainingMapping = {
       "/formations/categorie/btp": btpTrainings,
-     // "/formations/categorie/btp": btpTrainings,
-    };
+     };
 
-   /* const trainingBtpMapping = {
-    //  "/formations/categorie/sante": trainings,
-      "/formations/categorie/btp": btpTrainings,
-    };*/
+    
 
     setTrainingsList(trainingMapping[location.pathname] || []);
-    //setTrainingsBtpList(trainingBtpMapping[location.pathname] || []);
-
+ 
   }, [location]);
 
   const pageDetails = {
-  /*  "/formations/categorie/sante": {
-      title: "Nos programmes de formation pour les professionnels de santé",
-      description:
-        "Adaptées aux besoins du secteur médical, elles visent à renforcer vos compétences tout en répondant aux exigences des évolutions professionnelles et technologiques.",
-    },*/
+ 
     "/formations/categorie/btp": {
       title: "Nos programmes de formation pour les professionnels du bâtiment",
       description:
@@ -53,8 +42,7 @@ const HealthAndConstructionTrainings = () => {
         <p className="font-normal md:text-base text-sm text-left max-w-5xl">{description}</p>
       </div>
 
-      {/*<TopRated btpTrainings={trainingsList} />*/}
-      {/*trainingsList.length > 0 && <Featured training={trainingsList[0]} />*/}
+ 
       <AllTrainings btpTrainings={trainingsList} />
     </div>
   );

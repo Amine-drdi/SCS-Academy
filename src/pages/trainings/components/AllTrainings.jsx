@@ -1,6 +1,5 @@
 import React from "react";
 import TrainingList from "./TrainingList";
-import Filter from "./Filter";
 
 const AllTrainings = ({ trainings}) => {
   return (

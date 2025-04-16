@@ -14,12 +14,12 @@ const LegalNotices = () => {
         </div>
         <div>
           <p className="text-base font-normal ">
-          Le présent site est édité, hébergé et géré par la société Lemida, c'est un organisme de formation
+          Le présent site est édité, hébergé et géré par la société SCS Academy, c'est un organisme de formation
           dédié à la montée en compétences
           des professionnels et des entreprises. <br/><br/>
           <span className="font-semibold">Adresse du siège social :</span> 229 Rue Saint-Honoré, 75001 Paris<br/>
           <span className="font-semibold">Téléphone :</span> 07 56 82 86 00<br/>
-          <span className="font-semibold">E-mail :</span> contact@lemida.fr<br/>
+          <span className="font-semibold">E-mail :</span> contact@SCS Academy.fr<br/>
          <span className="font-semibold">SIRET :</span> 932 315 914 00014
           </p>
         </div>
@@ -60,7 +60,7 @@ const LegalNotices = () => {
           <p className="text-base font-normal">
           Pour toute question ou demande de clarification supplémentaire, veuillez nous contacter par courriel à (
             <span className="text-[#006D75] underline">
-            contact@lemida.fr
+            contact@SCS Academy.fr
             </span>
             ). 
           </p>

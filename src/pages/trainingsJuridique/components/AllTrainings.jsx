@@ -1,7 +1,6 @@
 import React from "react";
 import TrainingList from "./TrainingList";
-import Filter from "./Filter";
-
+ 
 const AllTrainings = ({ trainings}) => {
   return (
     <div className="flex flex-col gap-10 w-full">
@@ -15,8 +14,7 @@ const AllTrainings = ({ trainings}) => {
         </p>
       </div>
       <div className="flex lg:flex-row flex-col lg:gap-4 gap-8 w-full px-8 ">
-        <Filter />
-        <TrainingList trainings={trainings} />
+         <TrainingList trainings={trainings} />
       </div>
     </div>
   );

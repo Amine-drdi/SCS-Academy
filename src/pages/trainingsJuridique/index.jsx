@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import TopRated from "./components/TopRated";
-import Featured from "./components/Featured";
 import AllTrainings from "./components/AllTrainings";
 import { useLocation } from "react-router-dom";
 import { juridiqueTrainings } from "../../assets/data/trainings";
@@ -62,8 +60,7 @@ document.head.appendChild(styles);
 >
   Formation par visioconférence en one-to-one ou par groupe de 2 à 6 salariés
 </h1>
-     {/*<TopRated trainings={trainingsList} />*/}
-      {/*trainingsList.length > 0 && <Featured training={trainingsList[0]} />*/}
+  
       <AllTrainings trainings={trainingsList} />
     </div>
   );

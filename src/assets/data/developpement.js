@@ -2,7 +2,7 @@ export const Developpement = [
     {
       id: 0,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Développement de Soi",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -67,7 +67,7 @@ export const Developpement = [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation des formateurs",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -141,7 +141,7 @@ programme: [
     {
       id: 2,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Gestion du Stress",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -204,7 +204,7 @@ programme: [
     },
     {
       id: 3,
-      image: "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+      image: "/images/programm_no_picture.png",
       title: "Formation Gestion du Stress (1 jour)",
       duration: "12H",
       instructors: "Jean-François Renucci",
@@ -268,7 +268,7 @@ programme: [
     {
       id: 4,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation MIND MAPPING",
       duration: "18H",
       instructors: "Jean-François Renucci",
@@ -329,7 +329,7 @@ programme: [
     {
       id: 5,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestion des priorités et du stress : Maîtriser les techniques pour optimiser son temps de travail",
       duration: "14H",
       instructors: "Jean-François Renucci",
@@ -403,7 +403,7 @@ programme: [
     {
       id: 6,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestion des priorités : Maîtriser les techniques pour optimiser son temps de travail ",
       duration: "30H",
       instructors: "Jean-François Renucci",
@@ -474,7 +474,7 @@ programme: [
     {
         id: 7,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Gestion des priorités : Maîtriser les techniques pour optimiser son temps de travail (1 jour)",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -543,7 +543,7 @@ programme: [
       {
         id: 8,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Maîtrise de l'Approche Programmation Neuro-Linguistique (PNL)",
         duration: "30H",
         instructors: "Jean-François Renucci",

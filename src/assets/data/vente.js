@@ -1,8 +1,8 @@
 export const Vente = [
     {
-      id: 0,
+      id: 0, 
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Vente et négociation",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -67,7 +67,7 @@ programme: [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Vente et négociation dans le secteur pharmaceutique",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -129,7 +129,7 @@ programme: [
     {
       id: 2,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Maîtriser les fondamentaux de la vente en boutique",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -219,7 +219,7 @@ programme: [
     },
     {
       id: 3,
-      image: "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+      image: "/images/programm_no_picture.png",
       title: "Maîtriser les fondamentaux de la vente en boutique (1 jour)",
       duration: "12H",
       instructors: "Jean-François Renucci",
@@ -310,7 +310,7 @@ programme: [
     {
       id: 4,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Maîtriser les fondamentaux de la vente en boutique (3 jours)",
       duration: "18H",
       instructors: "Jean-François Renucci",
@@ -399,7 +399,7 @@ programme: [
     {
       id: 5,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Optimiser un point de vente - la performance commerciale",
       duration: "14H",
       instructors: "Jean-François Renucci",
@@ -525,7 +525,7 @@ programme: [
     {
       id: 6,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Optimiser un point de vente - la performance commerciale (1 jour)",
       duration: "30H",
       instructors: "Jean-François Renucci",

@@ -3,28 +3,24 @@ import { HiMail, HiPhone, HiLocationMarker } from "react-icons/hi";
 
 const Hero = () => {
   return (
-    <div className="relative flex justify-center items-start w-full md:w-1/2 p-8 text-black">
-      <div className="flex flex-col w-full h-fit">
-        <h1 className="md:text-3xl text-xl font-bold mb-4 text-orange-500">Contactez-nous</h1>
-        <p className="text-lg mb-6">
-          Nous serions ravis de vous entendre ! Que vous ayez une question, un
-          retour d'expérience ou besoin d'assistance, notre équipe est là pour
-          vous aider.
-        </p>
-
-        <div className="space-y-4">
-          <div className="flex items-center">
-            <HiPhone className="w-6 h-6 mr-4 text-orange-500" />
-            <span>07 56 82 86 00</span>
-          </div>
-          <div className="flex items-center ">
-            <HiMail className="w-6 h-6 mr-4 text-orange-500"  />
-            <span>contact@lemida.fr</span>
-          </div>
-          <div className="flex items-center ">
-            <HiLocationMarker className="w-6 h-6 mr-4 text-orange-500" />
-            <span>229 RUE SAINT-HONORE, 75001 PARIS</span>
-          </div>
+    <div className="flex flex-col justify-center w-full min-h-[550px] px-8 py-6 bg-white rounded-lg shadow-md">
+      <h1 className="text-4xl font-bold text-orange-600 mb-4">Contactez-nous</h1>
+      <p className="text-lg text-gray-600 mb-6">
+        Nous sommes là pour vous aider. N'hésitez pas à nous contacter si vous
+        avez des questions, des retours, ou besoin de plus d'informations.
+      </p>
+      <div className="space-y-6">
+        <div className="flex items-center">
+          <HiPhone className="w-6 h-6 mr-4 text-orange-500" />
+          <span className="text-lg">07 56 82 86 00</span>
+        </div>
+        <div className="flex items-center">
+          <HiMail className="w-6 h-6 mr-4 text-orange-500" />
+          <span className="text-lg">contact@SCS Academy.fr</span>
+        </div>
+        <div className="flex items-center">
+          <HiLocationMarker className="w-6 h-6 mr-4 text-orange-500" />
+          <span className="text-lg">229 RUE SAINT-HONORE, 75001 PARIS</span>
         </div>
       </div>
     </div>

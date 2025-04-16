@@ -2,13 +2,7 @@ import React from "react";
 import { MdOutlineCheck } from "react-icons/md";
 
 const Skills = ({formation}) => {
- /* const skills = [
-    "Identifier et décrire une lésion élémentaire",
-    "Diagnostiquer une lésion élémentaire en fonction de sa topographie",
-    "Diagnostiquer les dermatoses les plus courantes en fonction de l'âge",
-    "Dépister et prendre en charge les tumeurs",
-    "Déterminer si la manifestation d'une dermatose est liée à une maladie ou une urgence",
-  ];*/
+
 let skills = formation.skills
 console.log(formation)
   return (

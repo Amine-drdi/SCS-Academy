@@ -68,30 +68,11 @@ const TrainingDetails = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  /*if (!formation) {
-    return <div>Formation non trouvée</div>;
-  }*/
+ 
 
   return (
     <div className="relative flex flex-col gap-5 py-5">
-      {/*<div className="flex flex-row gap-2 md:px-desktop_padding sm:px-tablet_padding px-mobile_padding">
-        <NavLink
-          to="/"
-          className="max-sm:hidden text-base font-normal text-gray-700"
-        >
-          Accueil  
-        </NavLink>{" "}
-        <p className="sm:hidden text-base font-normal text-gray-700">...</p>
-        <span className="text-base font-normal text-gray-700">|</span>
-        <p className="max-sm:hidden text-base font-normal text-gray-700">
-          Infirmiers
-        </p>
-        <p className="sm:hidden text-base font-normal text-gray-700">...</p>
-        <span className="text-base font-normal text-gray-700">|</span>
-        <p className="text-base font-normal text-gray-700 line-clamp-1">
-          Formation Plaies et cicatrisation
-        </p>
-      </div>*/}
+ 
       <Hero setShowInscriptionForm={setShowInscriptionForm} 
         formation ={formation}
       />

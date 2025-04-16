@@ -65,12 +65,12 @@ const Main = () => {
         </div>
         <div className={`${!toggleParag1 && "hidden"}`}>
           <p>
-            Cette politique de confidentialité décrit les informations que Lemidacollecte auprès des utilisateurs finaux de notre site web Lemida et les informations que nous collectons pour le compte de nos clients qui utilisent notre technologie pour utiliser nos services.
+            Cette politique de confidentialité décrit les informations que SCS Academycollecte auprès des utilisateurs finaux de notre site web SCS Academy et les informations que nous collectons pour le compte de nos clients qui utilisent notre technologie pour utiliser nos services.
             <br />
             <br />
-            Cette politique ne s'applique pas aux tiers que Lemida ne possède pas ou ne contrôle pas. Ces tiers ne sont pas sous le contrôle de Lemida et Lemida n'est pas responsable de leurs pratiques en matière de confidentialité ou de sécurité.
+            Cette politique ne s'applique pas aux tiers que SCS Academy ne possède pas ou ne contrôle pas. Ces tiers ne sont pas sous le contrôle de SCS Academy et SCS Academy n'est pas responsable de leurs pratiques en matière de confidentialité ou de sécurité.
             <br />
-            <br /> Tout formulaire de commande ou accord supplémentaire auquel les utilisateurs acceptent de se soumettre pour l'utilisation des fonctionnalités optionnelles de Lemida prévaudra sur les termes de cette politique de confidentialité en cas de divergence, veuillez donc lire attentivement ces formulaires de commande ou accords supplémentaires.
+            <br /> Tout formulaire de commande ou accord supplémentaire auquel les utilisateurs acceptent de se soumettre pour l'utilisation des fonctionnalités optionnelles de SCS Academy prévaudra sur les termes de cette politique de confidentialité en cas de divergence, veuillez donc lire attentivement ces formulaires de commande ou accords supplémentaires.
             <br />
           </p>
         </div>
@@ -129,7 +129,7 @@ const Main = () => {
         </div>
         <div className={`${!toggleParag2 && "hidden"}`}>
           <p>
-          Dans le cadre de son activité, Lemida collecte et traite certaines données personnelles de ses utilisateurs. Cette Politique de Confidentialité vise à informer sur les données collectées, leur utilisation et les droits des utilisateurs.
+          Dans le cadre de son activité, SCS Academy collecte et traite certaines données personnelles de ses utilisateurs. Cette Politique de Confidentialité vise à informer sur les données collectées, leur utilisation et les droits des utilisateurs.
           </p>
         </div>
       </div>
@@ -503,7 +503,7 @@ const Main = () => {
         <div className={`${!toggleParag6 && "hidden"}`}>
           <p>
           Pour exercer vos droits, vous pouvez nous contacter à :  <br/><br/>
-          <span className="font-semibold">Email:</span> <span className="text-primary">contact@lemida.fr</span><br/>
+          <span className="font-semibold">Email:</span> <span className="text-primary">contact@SCS Academy.fr</span><br/>
           <span className="font-semibold">Adresse:</span> 229 RUE SAINT-HONORE, 75001 PARIS  <br/>
           Nous répondrons à votre demande sous 30 jours maximum.
           </p>

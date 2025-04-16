@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import TopRated from "./components/TopRated";
-import Featured from "./components/Featured";
+ 
 import AllTrainings from "./components/AllTrainings";
 import { useLocation } from "react-router-dom";
 import { trainings } from "../../assets/data/trainings";
@@ -8,23 +7,17 @@ import { trainings } from "../../assets/data/trainings";
 const HealthAndConstructionTrainings = () => {
   const location = useLocation();
   const [trainingsList, setTrainingsList] = useState([]);
-  //const [trainingsBtpList, setTrainingsBList] = useState([]);
 
 
   useEffect(() => {
     const trainingMapping = {
       "/formations/categorie/sante": trainings,
-     // "/formations/categorie/btp": btpTrainings,
     };
 
-   /* const trainingBtpMapping = {
-    //  "/formations/categorie/sante": trainings,
-      "/formations/categorie/btp": btpTrainings,
-    };*/
+ 
 
     setTrainingsList(trainingMapping[location.pathname] || []);
-    //setTrainingsBtpList(trainingBtpMapping[location.pathname] || []);
-
+ 
   }, [location]);
 
   const pageDetails = {
@@ -48,9 +41,7 @@ const HealthAndConstructionTrainings = () => {
         <p className="font-semibold md:text-3xl text-xl text-left max-w-2xl">{title}</p>
         <p className="font-normal md:text-base text-sm text-left max-w-5xl">{description}</p>
       </div>
-
-      {/*<TopRated trainings={trainingsList} />*/}
-      {/*trainingsList.length > 0 && <Featured training={trainingsList[0]} />*/}
+ 
        <AllTrainings trainings={trainingsList} />
     </div>
   );

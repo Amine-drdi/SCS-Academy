@@ -1,8 +1,8 @@
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
-import { NavLink, useNavigate } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
+import {  useState } from "react";
 import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import { useManualSignInMutation } from "../../../app/api/public/auth";
 import { setCurrentUser } from "../../../app/store/auth";
@@ -15,7 +15,6 @@ const schema = yup.object().shape({
 
 const Login = () => {
   const [manualSignIn, { isLoading }] = useManualSignInMutation();
-  const navigate = useNavigate();
   const dispatch = useDispatch();
   const [showPassword, setShowPassword] = useState(false);
 
@@ -37,7 +36,6 @@ const Login = () => {
     try {
       const user = await manualSignIn(values).unwrap();
       dispatch(setCurrentUser(user));
-      // navigate("/");
     } catch (error) {
       setError("email", {
         type: "manual",
@@ -50,9 +48,6 @@ const Login = () => {
     }
   };
 
-  // useEffect(() => {
-  //   if (auth.user) window.location.href = "/";
-  // }, []);
 
   return (
     <div className="w-full max-w-sm">
@@ -128,17 +123,6 @@ const Login = () => {
         </NavLink>
       </div>
 
-      {/*<div className="mt-4 text-center">
-        <p className="text-sm">
-          Pas de compte?{" "}
-          <NavLink
-            to="/connexion/inscrire"
-            className="text-main_color hover:underline font-medium"
-          >
-            Créez-en un
-          </NavLink>
-        </p>
-      </div>*/}
     </div>
   );
 };

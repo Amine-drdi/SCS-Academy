@@ -2,65 +2,50 @@ import React from "react";
 
 const ContactUsForm = () => {
   return (
-    <div className="flex flex-col w-full md:w-1/2 py-8 mt-12">
-      {/*<h2 className="text-2xl font-semibold mb-6 text-primary">Envoyez-nous un Message</h2>*/}
-      <form className="space-y-4">
-        <div>
-          <label htmlFor="name" className="block text-sm font-medium">
-            Nom et Prénom
-          </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            className="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 outline-none"
-            placeholder="Entrez votre Nom et Prénom"
-            required
-          />
+    <div className="w-full min-h-[550px]">
+      <form className="bg-white p-8 rounded-lg shadow-md h-full flex flex-col justify-between">
+        <div className="space-y-6">
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Nom et Prénom</label>
+            <input
+              type="text"
+              className="w-full mt-2 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500"
+              placeholder="Entrez votre Nom et Prénom"
+              required
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Email</label>
+            <input
+              type="email"
+              className="w-full mt-2 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500"
+              placeholder="Entrez votre Email"
+              required
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Téléphone</label>
+            <input
+              type="tel"
+              className="w-full mt-2 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500"
+              placeholder="Entrez votre numéro de téléphone"
+              required
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Message</label>
+            <textarea
+              rows="4"
+              className="w-full mt-2 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500"
+              placeholder="Votre Message"
+              required
+            ></textarea>
+          </div>
         </div>
-        <div>
-          <label htmlFor="email" className="block text-sm font-medium">
-            Email
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            className="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 outline-none"
-            placeholder="Entrez votre Email"
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="email" className="block text-sm font-medium">
-            Téléphone
-          </label>
-          <input
-            type="tel"
-            id="tel"
-            name="tel"
-            className="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 outline-none"
-            placeholder="Entrer votre numéro de téléphone"
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="message" className="block text-sm font-medium">
-            Message
-          </label>
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            className="w-full mt-1 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 outline-none"
-            placeholder="Votre Message"
-            required
-          ></textarea>
-        </div>
-        <div className="w-full flex justify-end">
+        <div className="w-full flex justify-end pt-6">
           <button
             type="submit"
-            className="sm:w-fit w-full text-white font-medium sm:text-base text-sm px-6 py-2 rounded-full bg-orange-500 hover:bg-orange-700 hover:text-white border border-transparent hover:border-white transition-all duration-500 ease-in-out"
+            className="text-white font-medium text-sm px-8 py-3 rounded-full bg-orange-500 hover:bg-orange-700 transition-all duration-300"
           >
             Envoyer
           </button>

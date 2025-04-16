@@ -2,7 +2,7 @@ export const Secretariat = [
     {
       id: 0,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Assistant(e) : Organisation et productivité / Organisation à l’ère du Digital",
       duration: "24H",
       instructors: "Jean-François Renucci",

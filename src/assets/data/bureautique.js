@@ -2,7 +2,7 @@ export const Bureautique = [
     {
       id: 0,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "EXCEL Macro VBA",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -94,7 +94,7 @@ programme: [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Complète à Office 365 : Maîtrise des Outils Essentiels et Administration",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -171,7 +171,7 @@ programme: [
     {
       id: 2,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/bU1EowaQREmrRmj1WQUv",
+        "/images/Excel.webp",
       title: "Formation Excel Niveau 1",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -266,7 +266,7 @@ programme: [
     },
     {
       id: 3,
-      image: "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/gIDGyL37QikXArkVHCmg",
+      image: "/images/Excel.webp",
       title: "Formation Excel Niveau 2",
       duration: "12H",
       instructors: "Jean-François Renucci",
@@ -434,7 +434,7 @@ programme: [
     {
       id: 4,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/iFUeSx2BSpuO4ThoKlTi",
+        "/images/Excel.webp",
       title: "Formation Excel Niveau 3",
       duration: "18H",
       instructors: "Jean-François Renucci",
@@ -661,7 +661,7 @@ programme: [
     {
       id: 5,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Les Essentiels du Web : Comprendre les outils, les concepts et les pratiques d’internet 2023",
       duration: "14H",
       instructors: "Jean-François Renucci",
@@ -817,7 +817,7 @@ programme: [
     {
       id: 6,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Office 365 : Maîtrise des Outils bureautiques Essentiels",
       duration: "30H",
       instructors: "Jean-François Renucci",
@@ -876,7 +876,7 @@ programme: [
     {
       id: 7,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Office 365 Niveau 3",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -989,7 +989,7 @@ programme: [
     {
       id: 8,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation OpenOffice",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1059,7 +1059,7 @@ programme: [
     {
       id: 9,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/Ri3OPguZR4iUaUvv0AST",
+        "/images/Word.webp",
       title: "Formation Word Niveau 1",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1174,7 +1174,7 @@ programme: [
     {
       id: 10,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/Ri3OPguZR4iUaUvv0AST",
+        "/images/Word.webp",
       title: "Formation Word Niveau 2",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1336,7 +1336,7 @@ programme: [
     {
       id: 11,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/Ri3OPguZR4iUaUvv0AST",
+        "/images/Word.webp",
       title: "Formation Word Niveau 3",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1532,7 +1532,7 @@ programme: [
      {
       id: 12,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/p6SxgBFRDGVaIjFE0B1K",
+        "/images/Google-Workspace.webp",
       title: "Google WorkSpace Niveau 1",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1594,7 +1594,7 @@ programme: [
       {
       id: 13,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/p6SxgBFRDGVaIjFE0B1K",
+        "/images/Google-Workspace.webp",
       title: "Google WorkSpace Niveau 2",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1656,7 +1656,7 @@ programme: [
       {
       id: 14,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Les essentiels de l’ordinateur : MacOS",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1798,7 +1798,7 @@ programme: [
        {
       id: 15,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Maîtriser Microsoft Outlook",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1866,7 +1866,7 @@ programme: [
          {
       id: 16,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Systèmes d'exploitation : MacOS Windows Linux",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1948,7 +1948,7 @@ programme: [
            {
       id: 17,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Veeam Backup",
       duration: "8H",
       instructors: "Jean-François Renucci",

@@ -1,9 +1,8 @@
-import React , { useState } from 'react';
+import React from 'react';
 import { finance } from '../../assets/data/trainings';
-import { FaUserTie, FaBriefcase, FaUserGraduate, FaUserClock, FaCheckCircle } from 'react-icons/fa';
+import { FaCheckCircle } from 'react-icons/fa';
 const Tab = () => {
   const found = finance.find((element) => element.id === 500);
-  const [activeTab, setActiveTab] = useState("aides");
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4 space-y-6">

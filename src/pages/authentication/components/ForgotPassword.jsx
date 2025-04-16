@@ -1,25 +1,15 @@
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
-// import { useLoginMutation } from "../../app/api/public/auth";
-import { NavLink, useNavigate } from "react-router-dom";
-// import { useDispatch } from "react-redux";
-// import { setCurrentUser } from "../../app/store/authSlice";
-import { useEffect, useState } from "react";
-// import { useAuth } from "../../app/hooks/useAuth";
-import { IoMdEye, IoMdEyeOff } from "react-icons/io";
+import { NavLink } from "react-router-dom";
+
 
 const schema = yup.object().shape({
   email: yup.string().email().required(),
 });
 
 const Login = () => {
-  // const auth = useAuth();
-  // const [login, { isLoading }] = useLoginMutation();
-  const navigate = useNavigate();
-  // const dispatch = useDispatch();
-
-  const {
+ const {
     formState: { errors },
     handleSubmit,
     register,
@@ -32,9 +22,7 @@ const Login = () => {
   const submit = async (values) => {
     try {
       console.log(values);
-      // const user = await login(values).unwrap();
-      // dispatch(setCurrentUser(user));
-      // navigate("/");
+
     } catch (error) {
       setError("email", {
         type: "manual",
@@ -43,9 +31,6 @@ const Login = () => {
     }
   };
 
-  // useEffect(() => {
-  //   if (auth.user) window.location.href = "/";
-  // }, []);
 
   return (
     <div className="w-full max-w-sm">

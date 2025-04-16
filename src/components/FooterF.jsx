@@ -7,8 +7,7 @@ import {
 } from "react-icons/fa";
 import { GoHome } from "react-icons/go";
 import { MdOutlineMail, MdOutlinePhone } from "react-icons/md";
-import { MdOutlineDescription } from 'react-icons/md';
-import { FaRegFileAlt } from 'react-icons/fa';
+
 
 const Footer = () => {
   const currentDate = new Date().getFullYear().toLocaleString();
@@ -21,8 +20,8 @@ const Footer = () => {
             <NavLink to="/">
               <img
                 className="w-full h-full object-contain"
-                src="/images/logo_lemida.png"
-                alt="Lemida"
+                src="/images/logo_SCS Academy.png"
+                alt="SCS Academy"
               />
             </NavLink>
           </div>
@@ -57,7 +56,7 @@ const Footer = () => {
     className="text-lg font-medium text-center"
     style={{ marginBottom: "20px",  fontSize: '15px' ,marginRight:"30px"}}
   >
-    Découvrir Lemida
+    Découvrir SCS Academy
   </p>
   <ul
     className="text-xs font-medium"
@@ -195,18 +194,9 @@ const Footer = () => {
     </li>
     <li className="flex items-center gap-2">
       <MdOutlineMail className="w-5 h-5" />
-      <span  style={{ fontSize: '10px' }}>contact@lemida.fr</span>
+      <span  style={{ fontSize: '10px' }}>contact@SCS Academy.fr</span>
     </li>
-   { /*<li className="flex items-center gap-2">
-      <MdOutlineDescription className="w-5 h-5" />
-      <span>SIRET: 932 315 914 00014</span>
-    </li>*/}
-  { /*<li className="flex items-center gap-2">
-      <FaRegFileAlt className="w-5 h-5" />
-      <span>
-        NDA: 11757074975 délivré par la Préfecture de Région de l'île-de-France
-      </span>
-    </li>*/}
+ 
   </ul>
 </div>
 
@@ -216,13 +206,13 @@ const Footer = () => {
 
         {/* Social media and copyright */}
         <div className="flex flex-col sm:flex-row justify-between items-center pt-8 border-t gap-4">
-          <p className="text-sm font-medium">&copy; {currentDate} Lemida.</p>
+          <p className="text-sm font-medium">&copy; {currentDate} SCS Academy.</p>
           <div style={{ fontSize: '13px' }}>SIRET: 932 315 914 00014</div>
 <div style={{ fontSize: '13px' }}>NDA: 11757074975 délivré par la Préfecture de Région de l'île-de-France</div>
 
           <div className="flex items-center space-x-4">
             <a
-              href="https://www.facebook.com/@lemida"
+              href="https://www.facebook.com/@SCS Academy"
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white border border-white hover:text-primary hover:border-primary hover:bg-white transition-all duration-300"
@@ -230,7 +220,7 @@ const Footer = () => {
               <FaFacebookF className="w-5 h-5" />
             </a>
             <a
-              href="https://www.instagram.com/@lemida"
+              href="https://www.instagram.com/@SCS Academy"
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white border border-white hover:text-primary hover:border-primary hover:bg-white transition-all duration-300"
@@ -238,7 +228,7 @@ const Footer = () => {
               <FaInstagram className="w-5 h-5" />
             </a>
             <a
-              href="https://www.linkedin.com/@lemida"
+              href="https://www.linkedin.com/@SCS Academy"
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center w-10 h-10 rounded-full bg-primary text-white border border-white hover:text-primary hover:border-primary hover:bg-white transition-all duration-300"

@@ -1,5 +1,4 @@
 import React from 'react';
-import TableDesMatieres from './components/TableDeMatiere';
 import { finance } from '../../assets/data/trainings';
 import { FaUserTie, FaBriefcase, FaUserGraduate, FaUserClock, FaCheckCircle } from 'react-icons/fa';
 const Tab = () => {

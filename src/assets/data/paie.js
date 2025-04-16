@@ -2,7 +2,7 @@ export const Paie = [
     {
       id: 0,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestion administrative du personnel",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -62,7 +62,7 @@ export const Paie = [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestion administrative et financière",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -129,7 +129,7 @@ export const Paie = [
     {
       id: 2,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestionnaire de paie",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -183,7 +183,7 @@ export const Paie = [
     },
     {
       id: 3,
-      image: "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+      image: "/images/programm_no_picture.png",
       title: "Gestionnaire de paie (1 jour)",
       duration: "12H",
       instructors: "Jean-François Renucci",

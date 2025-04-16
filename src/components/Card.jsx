@@ -1,19 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { FaEuroSign, FaChalkboardTeacher } from "react-icons/fa";
+import { FaEuroSign } from "react-icons/fa";
 import { MdTimer, MdOutlineSupportAgent } from "react-icons/md";
-//import { useParams } from 'react-router-dom';
-//import {training} from "../../src/assets/data/trainings"
+ 
 const Card = (props) => {
-  //const { id } = useParams(); // Récupère l'ID de l'URL
-
-  const { imageUrl, title, duration, instructors ,id} = props;
+ 
+  const { imageUrl, title, duration ,id} = props;
   console.log(id,imageUrl)
   return (
     <section className="relative group flex flex-col h-[460px] bg-white overflow-hidden">
       <NavLink
-        //to={´/formations/$id´}
-        to={`/formations/${id}`}
+         to={`/formations/${id}`}
 
         className="w-full h-full p-5 absolute top-0 flex translate-y-full group-hover:translate-y-0 ease-in-out duration-1000 bg-gradient-to-r from-footer_background_color to-footer_background_color z-10 cursor-pointer"
       >
@@ -107,12 +104,7 @@ const Card = (props) => {
               <MdOutlineSupportAgent className="w-5 h-5 text-white" />
               <p className="font-medium">En ligne</p>
             </div>
-           { /*<div className="flex flex-row gap-2">
-              <FaChalkboardTeacher className="w-5 h-5 text-white" />
-              <p className="font-medium">
-                Formateurs : <span>{instructors}</span>
-              </p>
-            </div>*/}
+         
           </div>
         </div>
       </NavLink>

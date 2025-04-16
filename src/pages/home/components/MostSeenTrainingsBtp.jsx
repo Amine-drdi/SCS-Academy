@@ -2,29 +2,22 @@ import Card from "../../../components/CardBtp";
 
 const MostSeenTrainings = ({ title, description, trainings }) => {
   return (
-    <section className="flex flex-col gap-10 md:px-desktop_padding sm:px-tablet_padding px-mobile_padding mt-12 mb-16">
-      <div className="flex justify-center gap-1 items-center shrink-0 self-stretch">
-        <div className="">
-          <p className="font-bold md:text-3xl text-xl text-center">{title}</p>
-          <p className="mt-6 md:max-w-4xl text-lg text-gray-600 text-center">
-            {description}
-          </p>
-        </div>
+    <section className="mt-12 mb-16 px-6 md:px-20">
+      <div className="text-center mb-8">
+        <p className="font-bold text-4xl text-gray-800">{title}</p>
+        <p className="mt-4 text-lg text-gray-500 md:max-w-4xl mx-auto">{description}</p>
       </div>
-      <div className=" flex justify-center">
-        <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 xl:max-w-[1400px]">
-          {trainings.slice(0, 11).map((training) => (
-            <Card
-              key={training.id}
-              imageUrl={training.image}
-              title={training.title}
-              instructors={training.instructors}
-              duration={training.duration}
-              id={training.id}
-
-            />
-          ))}
-        </div>
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-center">
+        {trainings.slice(0, 11).map((training) => (
+          <Card
+            key={training.id}
+            imageUrl={training.image}
+            title={training.title}
+            instructors={training.instructors}
+            duration={training.duration}
+            id={training.id}
+          />
+        ))}
       </div>
     </section>
   );

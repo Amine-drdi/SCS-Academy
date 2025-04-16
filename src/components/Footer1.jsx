@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-start gap-6">
           <div className="w-32 h-16 bg-white flex items-center justify-center">
             <NavLink to="/">
-              <img className="w-full h-full object-contain" src="/images/logo_lemida.png" alt="Lemida" />
+              <img className="w-full h-full object-contain" src="/images/logo_SCS Academy.png" alt="SCS Academy" />
             </NavLink>
           </div>
           <div className="flex flex-col sm:flex-row items-start gap-4 text-sm">
@@ -32,9 +32,9 @@ const Footer = () => {
 
         {/* Navigation */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {/* Découvrir Lemida */}
+          {/* Découvrir SCS Academy */}
           <div>
-            <p className="text-base font-medium mb-2">Découvrir Lemida</p>
+            <p className="text-base font-medium mb-2">Découvrir SCS Academy</p>
             <ul className="text-xs space-y-1">
               <li><NavLink to="/formations/categorie/sante">Santé</NavLink></li>
               <li><NavLink to="/formations/categorie/btp" className="hover:underline">Bâtiment</NavLink></li>
@@ -68,7 +68,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-1">
                 <MdOutlineMail className="w-4 h-4" />
-                <span>contact@lemida.fr</span>
+                <span>contact@SCS Academy.fr</span>
               </li>
             </ul>
           </div>
@@ -96,7 +96,7 @@ const Footer = () => {
         {/* Social media and copyright */}
         <div className="flex flex-col items-center sm:flex-row justify-between border-t border-gray-700 pt-4 text-xs">
   <div className="flex flex-row gap-1 items-center">
-    <p>&copy; {currentDate} Lemida.</p>
+    <p>&copy; {currentDate} SCS Academy.</p>
   </div>
 
   <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-4">
@@ -115,13 +115,13 @@ const Footer = () => {
   </div>
 
   <div className="flex space-x-3 mt-2 sm:mt-0">
-    <a href="https://www.facebook.com/@lemida" target="_blank" rel="noreferrer" className="w-7 h-7 flex items-center justify-center rounded-full bg-blue-600 hover:bg-blue-500 transition">
+    <a href="https://www.facebook.com/@SCS Academy" target="_blank" rel="noreferrer" className="w-7 h-7 flex items-center justify-center rounded-full bg-blue-600 hover:bg-blue-500 transition">
       <FaFacebookF className="w-3 h-3" />
     </a>
-    <a href="https://www.instagram.com/@lemida" target="_blank" rel="noreferrer" className="w-7 h-7 flex items-center justify-center rounded-full bg-pink-500 hover:bg-pink-400 transition">
+    <a href="https://www.instagram.com/@SCS Academy" target="_blank" rel="noreferrer" className="w-7 h-7 flex items-center justify-center rounded-full bg-pink-500 hover:bg-pink-400 transition">
       <FaInstagram className="w-3 h-3" />
     </a>
-    <a href="https://www.linkedin.com/@lemida" target="_blank" rel="noreferrer" className="w-7 h-7 flex items-center justify-center rounded-full bg-blue-800 hover:bg-blue-700 transition">
+    <a href="https://www.linkedin.com/@SCS Academy" target="_blank" rel="noreferrer" className="w-7 h-7 flex items-center justify-center rounded-full bg-blue-800 hover:bg-blue-700 transition">
       <FaLinkedinIn className="w-3 h-3" />
     </a>
   </div>

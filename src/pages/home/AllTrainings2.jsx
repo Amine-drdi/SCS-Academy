@@ -3,15 +3,11 @@ import MostSeenTrainings from "./components/MostSeenTrainings";
 import MostSeenTrainingsBtp from "./components/MostSeenTrainingsBtp";
 import MostSeenTrainingsJuri from "./components/MostSeenTrainingsJuri";
 import Testimonial from "./components/Testimonial";
-import WhyChooseUs from "./components/WhyChooseUs";
-import Advisors from "./components/Advisors";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Timeline from "./components/Timeline";
-import { btpAdvisors, medicalAdvisors,juridiqueAdministrationAdvisors} from "../../assets/data/advisors";
 import { trainings, btpTrainings,juridiqueTrainings } from "../../assets/data/trainings";
-import Slider from "./components/Slider";
-import Categories from "./components/Categories";
+
 
 AOS.init({ duration: 1000 });
 AOS.refresh();

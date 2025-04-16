@@ -119,7 +119,7 @@ const Profile = () => {
         </div>
         <div className="flex flex-col gap-1 p-4">
           <p className="text-lg font-normal text-main">
-            Vous perdrez l'accès à votre espace Lemida une fois votre demande de
+            Vous perdrez l'accès à votre espace SCS Academy une fois votre demande de
             suppression soumise.
           </p>
         </div>

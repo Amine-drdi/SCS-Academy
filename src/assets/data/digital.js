@@ -2,7 +2,7 @@ export const Digital = [
     {
       id: 0,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "CHATBOTS ET INTERCATION AUTOMATISEE POUR SITE INTERNET",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -54,7 +54,7 @@ export const Digital = [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Création de site WEB",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -141,7 +141,7 @@ export const Digital = [
     {
       id: 2,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Mettre en place et piloter son plan de Marketing Digital",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -224,7 +224,7 @@ programme: [
     },
     {
       id: 3,
-      image: "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+      image: "/images/programm_no_picture.png",
       title: "Formation Mettre en place et piloter son plan de Marketing Digital (1 jour)",
       duration: "12H",
       instructors: "Jean-François Renucci",
@@ -308,7 +308,7 @@ programme: [
     {
       id: 4,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation PrestaShop : Création de site WEB",
       duration: "18H",
       instructors: "Jean-François Renucci",
@@ -369,7 +369,7 @@ programme: [
     {
       id: 5,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation WordPress 2023 -",
       duration: "14H",
       instructors: "Jean-François Renucci",
@@ -492,7 +492,7 @@ programme: [
     {
       id: 6,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Intelligence Artificielle et Motion design",
       duration: "30H",
       instructors: "Jean-François Renucci",
@@ -543,7 +543,7 @@ programme: [
     {
       id: 7,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Les fondamentaux de l'IA générative pour les graphistes",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -596,7 +596,7 @@ programme: [
     {
       id: 8,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "L’IA pour les réseaux sociaux",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -653,7 +653,7 @@ programme: [
     {
       id: 9,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Mettre en place et piloter son plan de Marketing Digital (Réseaux sociaux + Pinterest)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -728,7 +728,7 @@ programme: [
     {
       id: 10,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "OpenAI : ChatGPT",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -799,7 +799,7 @@ programme: [
     {
       id: 11,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "OpenAI : ChatGPT (1 jour)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -872,7 +872,7 @@ programme: [
      {
       id: 12,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Programmation PHP - Niveau avancé",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -954,7 +954,7 @@ programme: [
       {
       id: 13,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Programme Formation : Réseaux sociaux et marketing digital",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1088,7 +1088,7 @@ programme: [
       {
       id: 14,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/iem9SLcmTQCZjDImgwTw",
+        "/images/Digital.webp",
       title: "Réseaux sociaux et marketing digital",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1221,7 +1221,7 @@ programme: [
        {
       id: 15,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/iem9SLcmTQCZjDImgwTw",
+        "/images/Digital.webp",
       title: "Réseaux sociaux et marketing digital (1 jour)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1347,7 +1347,7 @@ programme: [
          {
       id: 16,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/iem9SLcmTQCZjDImgwTw",
+        "/images/Digital.webp",
       title: "Réseaux sociaux et marketing digital (3 jours)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1472,7 +1472,7 @@ programme: [
            {
       id: 17,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/lc3Zp5bDTLqpfwe5bkSP",
+        "/images/Wordpress.webp",
       title: "WordPress Niveau 1",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1598,7 +1598,7 @@ programme: [
           {
       id: 18,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/lc3Zp5bDTLqpfwe5bkSP",
+        "/images/Wordpress.webp",
       title: "WordPress Niveau 2",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1743,7 +1743,7 @@ programme: [
        {
       id: 19,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/lc3Zp5bDTLqpfwe5bkSP",
+        "/images/Wordpress.webp",
       title: "WordPress Niveau 3",
       duration: "8H",
       instructors: "Jean-François Renucci",

@@ -2,7 +2,7 @@ export const Management = [
     {
       id: 0,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Business Développement",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -69,7 +69,7 @@ programme: [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Elaboration de tableaux de bord avec Excel",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -130,7 +130,7 @@ programme: [
     {
       id: 2,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Management d'équipe",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -203,7 +203,7 @@ programme: [
     },
     {
       id: 3,
-      image: "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/l1KqeyPiQAe49o8kArLF",
+      image: "/images/Management-dequipe.webp",
       title: "Les fondamentaux du management",
       duration: "12H",
       instructors: "Jean-François Renucci",
@@ -277,7 +277,7 @@ programme: [
     {
       id: 4,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/l1KqeyPiQAe49o8kArLF",
+        "/images/Management-dequipe.webp",
       title: "Les fondamentaux du management (1 jour)",
       duration: "18H",
       instructors: "Jean-François Renucci",
@@ -351,7 +351,7 @@ programme: [
     {
       id: 5,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Management axé sur la Communication Efficace",
       duration: "14H",
       instructors: "Jean-François Renucci",
@@ -430,7 +430,7 @@ programme: [
     {
       id: 6,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Management : Gérer son équipe",
       duration: "30H",
       instructors: "Jean-François Renucci",
@@ -513,7 +513,7 @@ programme: [
     {
       id: 7,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Manager une équipe : Perfectionnement",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -562,7 +562,7 @@ programme: [
     {
       id: 8,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Manager une équipe : Perfectionnement (1 jour)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -613,7 +613,7 @@ programme: [
     {
       id: 9,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Pilotage et Gestion de Projet",
       duration: "8H",
       instructors: "Jean-François Renucci",

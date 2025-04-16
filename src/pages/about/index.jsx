@@ -10,13 +10,17 @@ const About = () => {
   return (
     <div>
       <Hero />
-      <OurStory />
       <OurMission />
-      <OurImpact />
-      <OurApproach />
+
+      <OurStory />
       <Founder/>
+
+      <OurApproach />
+      <OurImpact />
+
     </div>
   );
 };
 
 export default About;
+ 

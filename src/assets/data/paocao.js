@@ -2,7 +2,7 @@ export const Paocao = [
     {
       id: 0,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Adobe After Effects",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -72,7 +72,7 @@ programme: [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Adobe InDesign CS5",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -144,7 +144,7 @@ programme: [
     {
       id: 2,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Adobe InDesign CS5 (1 jour)",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -215,7 +215,7 @@ programme: [
     },
     {
       id: 3,
-      image: "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+      image: "/images/programm_no_picture.png",
       title: "Adobe Premiere Pro",
       duration: "12H",
       instructors: "Jean-François Renucci",
@@ -304,7 +304,7 @@ programme: [
     {
       id: 4,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/rN1jvxOS9KcqES36Qr3x",
+        "/images/Illustrator-1.webp",
       title: "Illustrator CC Niveau 1",
       duration: "18H",
       instructors: "Jean-François Renucci",
@@ -406,7 +406,7 @@ programme: [
     {
       id: 5,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/rN1jvxOS9KcqES36Qr3x",
+        "/images/Illustrator-1.webp",
       title: "Illustrator CC Niveau 2",
       duration: "14H",
       instructors: "Jean-François Renucci",
@@ -572,7 +572,7 @@ programme: [
     {
       id: 6,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/rN1jvxOS9KcqES36Qr3x",
+        "/images/Illustrator-1.webp",
       title: "Illustrator CC Niveau 3",
       duration: "30H",
       instructors: "Jean-François Renucci",
@@ -749,7 +749,7 @@ programme: [
     {
       id: 7,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Lightroom - Perfectionnement",
       duration: "30H",
       instructors: "Jean-François Renucci",
@@ -809,7 +809,7 @@ programme: [
     {
         id: 8,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Maîtriser SketchUp",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -886,7 +886,7 @@ programme: [
       {
         id: 9,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Maîtriser SketchUp (1 jour)",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -962,7 +962,7 @@ programme: [
       {
         id: 10,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Maîtriser V-Ray et SketchUp",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -1021,7 +1021,7 @@ programme: [
       {
         id: 11,
         image:
-          "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/i4FlnTTyQBaIi6zpP2EA",
+          "/images/Photoshop.webp",
         title: "Photoshop CC Niveau 1",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -1139,7 +1139,7 @@ programme: [
       {
         id: 12,
         image:
-          "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/i4FlnTTyQBaIi6zpP2EA",
+          "/images/Photoshop.webp",
         title: "Photoshop CC Niveau 2",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -1264,7 +1264,7 @@ programme: [
       {
         id: 13,
         image:
-          "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/i4FlnTTyQBaIi6zpP2EA",
+          "/images/Photoshop.webp",
         title: "Photoshop CC Niveau 3",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -1476,7 +1476,7 @@ programme: [
       {
         id: 14,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Z Brush",
         duration: "30H",
         instructors: "Jean-François Renucci",

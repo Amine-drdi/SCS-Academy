@@ -2,34 +2,38 @@ import React from "react";
 
 const Advisors = ({ label, description, advisorsList }) => {
   return (
-    <div className="flex items-center justify-center xl:px-desktop_padding md:px-laptop_padding sm:px-tablet_padding px-mobile_padding mb-16 bg-tertiary py-16">
-      <div className="flex flex-col items-center gap-10 max-lg:gap-6">
-        <div className="flex flex-col items-center md:px-[80px] px-5 gap-[14px]">
-          <p className="text-center font-bold md:text-3xl text-xl flex items-center">
-            {label}
-          </p>
-          <p className="text-center text-base font-normal max-w-2xl">
+    <div className="bg-white py-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Title and Description */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-semibold text-gray-800">{label}</h2>
+          <p className="text-lg text-gray-500 mt-4 max-w-3xl mx-auto">
             {description}
           </p>
         </div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 max-w-[1400px]">
+
+        {/* Advisors Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
           {advisorsList.map((item) => (
             <div
               key={item.name}
-              className="flex flex-col gap-3 border-2 border-white w-full rounded-lg p-4"
+              className="bg-gray-100 p-6 rounded-xl shadow-lg transition-transform transform hover:scale-105"
             >
-              <div className="flex flex-row items-center gap-4">
-                <img
-                  src={item.image}
-                  alt="formateur"
-                  className="sm:w-28 sm:h-28 w-20 h-20 object-cover rounded-full"
-                />
-                <div className="flex flex-col gap-1">
-                  <p className="font-medium">{item.name}</p>
-                  <p className="text-gray-700 text-sm">{item.title}</p>
+              <div className="flex flex-col items-center justify-center gap-6">
+                {/* Image Container */}
+                <div className="w-32 h-32 rounded-full overflow-hidden shadow-xl">
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
+                <div className="text-center">
+                  <h3 className="text-xl font-semibold text-gray-800">{item.name}</h3>
+                  <p className="text-gray-500 text-sm">{item.title}</p>
+                </div>
+                <p className="text-gray-600 text-sm mt-4">{item.description}</p>
               </div>
-              <p className="text-gray-800 text-sm">{item.description}</p>
             </div>
           ))}
         </div>

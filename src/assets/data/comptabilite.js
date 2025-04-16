@@ -1,7 +1,7 @@
 export const Comptabilite = [
   {
     id: 0,
-    image: "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+    image: "/images/programm_no_picture.png",
     title: "Comptabilité des entreprises",
     duration: "24H",
     instructors: "Jean-François Renucci",
@@ -63,7 +63,7 @@ export const Comptabilite = [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Comptabilité des entreprises (1 jour)",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -124,7 +124,7 @@ export const Comptabilite = [
     {
       id: 2,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Comptabilité des entreprises - Niveau intermédiaire",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -176,7 +176,7 @@ export const Comptabilite = [
     },
     {
       id: 3,
-      image: "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+      image: "/images/programm_no_picture.png",
       title: "Comptabilité Fiscale en Entreprise",
       duration: "12H",
       instructors: "Jean-François Renucci",
@@ -264,7 +264,7 @@ export const Comptabilite = [
     {
       id: 4,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Comptabilité : Perfectionnement",
       duration: "18H",
       instructors: "Jean-François Renucci",
@@ -341,7 +341,7 @@ export const Comptabilite = [
     {
       id: 5,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Droit des affaires en entreprise",
       duration: "14H",
       instructors: "Jean-François Renucci",
@@ -414,7 +414,7 @@ export const Comptabilite = [
     {
       id: 6,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "EBP Comptabilité",
       duration: "30H",
       instructors: "Jean-François Renucci",
@@ -495,7 +495,7 @@ export const Comptabilite = [
     {
       id: 7,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "EBP Comptabilité (1 jour)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -576,7 +576,7 @@ export const Comptabilite = [
     {
       id: 8,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "EBP Facturation",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -635,7 +635,7 @@ export const Comptabilite = [
     {
       id: 9,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "EBP Facturation (1 jour)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -694,7 +694,7 @@ export const Comptabilite = [
     {
       id: 10,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/4pMBIm0hTrWpzTdRsAkO",
+        "/images/Excel.webp",
       title: "Excel pour Comptables",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -789,7 +789,7 @@ export const Comptabilite = [
     {
       id: 11,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/4pMBIm0hTrWpzTdRsAkO",
+        "/images/Excel.webp",
       title: "Excel pour Comptables (1 jour)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -884,7 +884,7 @@ export const Comptabilite = [
      {
       id: 12,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/4pMBIm0hTrWpzTdRsAkO",
+        "/images/Excel.webp",
       title: "Excel pour Comptables Niveau 2",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -942,7 +942,7 @@ export const Comptabilite = [
       {
       id: 13,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Fiscalité en entreprise",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1001,7 +1001,7 @@ export const Comptabilite = [
       {
       id: 14,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Aide Comptable",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1075,7 +1075,7 @@ export const Comptabilite = [
        {
       id: 15,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Aide Comptable (1 jour)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1149,7 +1149,7 @@ export const Comptabilite = [
          {
       id: 16,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Comptable d'entreprise Perfectionnement",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1214,7 +1214,7 @@ export const Comptabilite = [
            {
       id: 17,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Comptable d'entreprise Perfectionnement (1 jour)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1279,7 +1279,7 @@ export const Comptabilite = [
           {
       id: 18,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestion d'entreprise : Les fondamentaux",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1336,7 +1336,7 @@ export const Comptabilite = [
        {
       id: 19,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestion d'entreprise : Les fondamentaux (1 jour)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1393,7 +1393,7 @@ export const Comptabilite = [
      {
       id: 20,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestion d’entreprise : Les obligations du chef d’entreprise",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1437,7 +1437,7 @@ export const Comptabilite = [
      {
       id: 21,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Gestion de Paie - Niveau 2",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1503,7 +1503,7 @@ export const Comptabilite = [
       {
       id: 22,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Maîtriser les opérations comptables et fiscales d’une entreprise",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1578,7 +1578,7 @@ export const Comptabilite = [
     {
       id: 23,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Maîtriser les opérations comptables et fiscales d’une entreprise (1 jour)",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1653,7 +1653,7 @@ export const Comptabilite = [
        {
       id: 24,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "MAITRISER LES OUTILS DE GESTION FINANCIERE POUR PILOTER ET DEVELOPPER SA STRUCTURE",
       duration: "8H",
       instructors: "Jean-François Renucci",
@@ -1725,7 +1725,7 @@ export const Comptabilite = [
     {
       id: 25,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Sage 100 Comptabilité",
       duration: "8H",
       instructors: "Jean-François Renucci",

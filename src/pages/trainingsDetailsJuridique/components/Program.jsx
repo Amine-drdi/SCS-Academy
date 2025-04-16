@@ -310,7 +310,7 @@ const Program = () => {
           <div className="flex flex-col divide-y-2 divide-gray-200">
             <div className="flex flex-row items-center gap-4 py-4">
               <img
-                src="https://lh3.googleusercontent.com/pw/AL9nZEUn0_Z__2yT_aZpFawJ_vi0ycdjOQQc-wtvTw2elNrVmzC4A8t5GrUaVe8qafjQJoK2xG2eqZCpaQY0fY_yx6IJBEtMJSHgDzxQvdQExK9I04HMw8B5hfjKC4tA0rxBcfg0fvv-zNiG7LLOaAQIhUY=w926-h617-no?authuser=0"
+                src="/images/testimonial2.jpeg"
                 alt="formateur"
                 className="w-14 h-14 object-cover rounded-full"
               />
@@ -322,7 +322,7 @@ const Program = () => {
             </div>
             <div className="flex flex-row items-center gap-4 py-4">
               <img
-                src="https://lh3.googleusercontent.com/pw/AL9nZEW3XlFCMD6Ce4UWIRarAJLqzzhXCxXuPbG21y_rowLXyG92XB9xy7LByUnqxd9ED9GxM5hr4OwQ_Yaa-ZFsdkdhVtaabTx1QZ-U_jA8eIylkDJ49Smmg9hN1i4xo-vzjpq4Tm1WAi-EERi8fdYACgc=w412-h617-no?authuser=0"
+                src="/images/testimonial3.jpeg"
                 alt="formateur"
                 className="w-14 h-14 object-cover rounded-full"
               />

@@ -23,7 +23,7 @@ const Hero = ({ setShowInscriptionForm }) => {
         </p>
         <div className="flex flex-row items-center gap-4">
           <img
-            src="https://lh3.googleusercontent.com/pw/AL9nZEUn0_Z__2yT_aZpFawJ_vi0ycdjOQQc-wtvTw2elNrVmzC4A8t5GrUaVe8qafjQJoK2xG2eqZCpaQY0fY_yx6IJBEtMJSHgDzxQvdQExK9I04HMw8B5hfjKC4tA0rxBcfg0fvv-zNiG7LLOaAQIhUY=w926-h617-no?authuser=0"
+            src="/images/testimonial2.jpeg"
             alt="formateur"
             className="w-10 h-10 object-cover rounded-full"
           />
@@ -46,7 +46,7 @@ const Hero = ({ setShowInscriptionForm }) => {
       </div>
       <div className="w-1/2 h-full absolute right-0 bottom-0 top-0 -z-10">
         <img
-          src="https://fac.img.pmdstatic.net/fit/~1~fac~2022~02~09~ba7ece74-7b5f-4b21-bf2e-e6f39ddf5f35.jpeg/1200x900/quality/80/crop-from/center/perfusion-definition-utilite-et-les-differents-types-de-perfusion.jpeg"
+          src="/images/perfusion-definition-utilite-et-les-differents-types-de-perfusion.jpeg"
           alt="Hero Formation Plaies et Cicatrisation"
           className="object-cover w-full h-full"
         />

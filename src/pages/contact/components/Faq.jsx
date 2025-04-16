@@ -5,54 +5,39 @@ const Item = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border rounded shadow-sm bg-orange-400">
+    <div className="border-b border-gray-300 py-4">
       <button
         type="button"
-        aria-label="Open item"
-        title="Open item"
-        className="flex gap-2 items-center justify-between w-full p-8 focus:outline-none"
+        aria-label="Toggle FAQ item"
+        className="flex justify-between items-center w-full p-4 text-lg font-semibold text-gray-800"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <p className="text-md text-left font-medium w-11/12 text-black">
-          {title}
-        </p>
-        <div className="flex items-center justify-center w-8 h-8 border border-black rounded-full">
+        <span>{title}</span>
+        <span className={`transform transition-transform ${isOpen ? "rotate-180" : ""}`}>
           <svg
-            viewBox="0 0 24 24"
-            className={`w-3 text-black transition-transform duration-200 ${
-              isOpen ? "transform rotate-180" : ""
-            }`}
+            width="24"
+            height="24"
+            className="text-gray-600"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <polyline
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeMiterlimit="10"
-              points="2,7 12,17 22,7"
-              strokeLinejoin="round"
-            />
+            <polyline points="6,9 12,15 18,9" stroke="currentColor" strokeWidth="2" />
           </svg>
-        </div>
+        </span>
       </button>
       {isOpen && (
-        <div className="p-8 pt-0">
-          <p className="text-black">{children}</p>
+        <div className="mt-4 px-6 text-gray-600 text-base">
+          <p>{children}</p>
         </div>
       )}
     </div>
   );
 };
 
-const Faq = (props) => {
+const Faq = () => {
   return (
-    <div className="w-full flex flex-col gap-12 max-w-2xl px-mobile_padding">
-      <div className="flex w-full">
-        <h2 className="md:text-3xl text-xl font-bold tracking-tight text-orange-500 text-center w-full">
-          FAQ
-        </h2>
-      </div>
-
+    <div className="w-full max-w-4xl mx-auto px-4">
+      <h2 className="text-3xl font-bold text-center text-orange-600 mb-8">FAQ</h2>
       <div className="space-y-4">
         {faq.map((item) => (
           <Item title={item.question} key={item.question}>

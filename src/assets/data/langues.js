@@ -2,7 +2,7 @@ export const Langue = [
     {
       id: 0,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Anglais commercial : Maîtriser l'anglais des affaires dans son entreprise",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -51,7 +51,7 @@ programme: [
     {
       id: 1,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Anglais commercial : Maîtriser l'anglais des affaires dans son entreprise (1 jour)",
       duration: "20H",
       instructors: "Jean-François Renucci",
@@ -101,7 +101,7 @@ programme: [
     {
       id: 2,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Allemand Professionnel",
       duration: "24H",
       instructors: "Jean-François Renucci",
@@ -159,7 +159,7 @@ programme: [
     },
     {
       id: 3,
-      image: "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/2cKY3FPPTHWuk6Km5vfy",
+      image: "/images/Anglais.webp",
       title: "Formation Anglais Niveau 1",
       duration: "12H",
       instructors: "Jean-François Renucci",
@@ -240,7 +240,7 @@ programme: [
     {
       id: 4,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/2cKY3FPPTHWuk6Km5vfy",
+        "/images/Anglais.webp",
       title: "Formation Anglais Niveau 2",
       duration: "18H",
       instructors: "Jean-François Renucci",
@@ -337,7 +337,7 @@ programme: [
     {
       id: 5,
       image:
-        "https://cdn.filestackcontent.com/resize=w:1080/output=f:webp/2cKY3FPPTHWuk6Km5vfy",
+        "/images/Anglais.webp",
       title: "Formation Anglais Niveau 3",
       duration: "14H",
       instructors: "Jean-François Renucci",
@@ -397,7 +397,7 @@ programme: [
     {
       id: 6,
       image:
-        "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+        "/images/programm_no_picture.png",
       title: "Formation Anglais Professionnel",
       duration: "30H",
       instructors: "Jean-François Renucci",
@@ -477,7 +477,7 @@ programme: [
     {
         id: 7,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Formation Anglais Professionnel (1 jour)",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -558,7 +558,7 @@ programme: [
       {
         id: 8,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Formation Espagnol Niveau 1",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -610,7 +610,7 @@ programme: [
       {
         id: 9,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Formation Italien",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -665,7 +665,7 @@ programme: [
       {
         id: 10,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Formation Italien (1 jour)",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -720,7 +720,7 @@ programme: [
       {
         id: 11,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Formation Italien Commercial",
         duration: "30H",
         instructors: "Jean-François Renucci",
@@ -776,7 +776,7 @@ programme: [
       {
         id: 12,
         image:
-          "https://formationaccess.catalogueformpro.com/images/programm_no_picture.png",
+          "/images/programm_no_picture.png",
         title: "Formation Portugais",
         duration: "30H",
         instructors: "Jean-François Renucci",

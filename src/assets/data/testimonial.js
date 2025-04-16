@@ -1,54 +1,41 @@
-
-
 export const testimonials = [
   {
     _id: "1",
-    avatarUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCGDQQrAkH9-7Gup-xkAmvMXRxde0oe_taZu2HsVTY6iO7UE25-oUbAkUfjN0pA9aWP5M&usqp=CAU",
+    avatarUrl: "/images/icon_1.jpeg",
     name: "Marta Sharapova",
-    position: "Infemiére",
+    position: "Conductrice de travaux",
     description:
-      "Cette formation m'a permis d'acquérir des compétences pratiques essentielles en soins infirmiers, renforçant ma capacité à intervenir efficacement auprès des patients en situation réelle.",
-    note: 3,
+      "Cette formation m'a permis d'acquérir les compétences nécessaires à la gestion de chantiers complexes, à la coordination des équipes et à la gestion des contraintes techniques et de sécurité dans les projets de construction.",
+    note: 4,
   },
   {
     _id: "2",
-    avatarUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV4AiTVnmQsYoyqk2qQUXddEUGsA_0L7tbbuxJZVdG1fT3s9iEEQdmfYYwv9x-d1HragA&usqp=CAU",
+    avatarUrl: "/images/icon_2.jpeg",
     name: "Jean Lefevre",
-    position: "Manager",
+    position: "Chef de projet BTP",
     description:
-      "Cette formation m'a permis de maîtriser Excel pour gérer efficacement des projets, analyser des données et créer des tableaux de bord performants pour mes équipes.",
+      "Grâce à cette formation, j'ai appris à piloter des projets de construction en BTP, à optimiser les coûts et délais tout en respectant les normes environnementales et sécuritaires, ce qui est essentiel dans le secteur public et privé.",
     note: 5,
   },
   {
     _id: "3",
     avatarUrl:
-      "https://e7.pngegg.com/pngimages/439/19/png-clipart-avatar-user-profile-icon-women-wear-frock-face-holidays.png",
+      "/images/png-clipart-avatar-user-profile-icon-women-wear-frock-face-holidays.png",
     name: "Sophie Martin",
-    position: "Physiothérapeute",
+    position: "Ingénieure BTP",
     description:
-      "Cette formation m'a permis de perfectionner mes techniques de rééducation et d'apprendre à évaluer et traiter efficacement diverses pathologies musculosquelettiques.",
+      "Cette formation m'a permis de perfectionner mes compétences en conception structurelle, ainsi que ma capacité à appliquer les dernières normes techniques et environnementales dans la construction d'infrastructures publiques et privées.",
     note: 4,
   },
   {
     _id: "4",
     avatarUrl:
-      "https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png",
+      "/images/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png",
     name: "Jon Doe",
-    position: "Société Civile",
+    position: "Architecte",
     description:
-      "Cette formation m'a permis de mieux comprendre le rôle des organisations de la société civile et d'acquérir des compétences en gestion de projets communautaires et en plaidoyer.",
+      "Cette formation m'a donné des outils essentiels pour intégrer les pratiques de conception durable et les technologies innovantes dans mes projets architecturaux, en lien avec les exigences des chantiers BTP.",
     note: 3,
   },
-  {
-    _id: "5",
-    avatarUrl:
-      "https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg",
-    name: "Henry Jackson",
-    position: "Product Manager",
-    description:
-      "La formation m'a offert une perspective nouvelle sur le marketing digital, avec des outils concrets pour améliorer la visibilité de mon entreprise.",
-    note: 4,
-  },
+ 
 ];
