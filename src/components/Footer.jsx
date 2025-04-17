@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import logo from "../assets/img/logo-footer.png";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -29,20 +30,20 @@ const Footer = () => {
         {/* Liens principaux */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm mb-12">
           <div>
-            <h4 className="font-semibold text-white mb-3">Découvrir SCS Academy</h4>
+            <h4 className="font-semibold text-white mb-3">Découvrir SCS Academy </h4>
             <ul className="space-y-2 text-gray-300">
-              <li>Formations</li>
-              <li>Qui sommes-nous</li>
-              <li>Contactez-nous</li>
+              <li>  <NavLink  to="/formations/categorie/btp"  >Formations       </NavLink></li>
+              <li > <NavLink  to="/a-propos"  >Qui sommes-nous</NavLink></li>
+              <li><NavLink  to="/contact"  >Contactez-nous</NavLink></li> 
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold text-white mb-3">Informations légales</h4>
             <ul className="space-y-2 text-gray-300">
-              <li>Politique de confidentialité</li>
-              <li>Conditions générales</li>
-              <li>Mentions légales</li>
+              <li> <NavLink  to="/politiques-de-confidentialite"  > Politique de confidentialité</NavLink></li>
+              <li><NavLink  to="/conditions-generales"  >Conditions générales</NavLink></li>
+              <li><NavLink  to="/mentions-legales"  >Mentions légales</NavLink></li>
             </ul>
           </div>
 
