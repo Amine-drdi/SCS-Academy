@@ -19,14 +19,14 @@ const Home = () => {
     <section className="flex flex-col">
       <Slider />
       <MostSeenTrainingsBtp
-        title="Nos formations essentielles pour les professionnels du bâtiment !"
-        description="Explorez notre sélection de formations clés pour développer vos compétences techniques et mener à bien vos projets dans le secteur de la construction."
+        title="Nos formations"
+        description="Parcourez notre catalogue de formations pour développer vos compétences et évoluer dans le secteur de BTP."
         trainings={btpTrainings}
       />
       <WhyChooseUs />
       <Advisors
         label="Profitez de l’expertise de professionnels aguerris"
-        description="Ils sont au cœur des grandes réalisations du secteur et partagent leur vision pour inspirer et guider ceux qui bâtissent le monde de demain. Découvrez les témoignages de trois figures clés de la construction et de l'architecture."
+        description="Acteurs incontournables du secteur, ils partagent leur vision et leur expérience pour inspirer celles et ceux qui construisent le monde de demain. Découvrez les témoignages de trois figures emblématiques de la construction et de l’architecture."
         advisorsList={btpAdvisors}
       />
   

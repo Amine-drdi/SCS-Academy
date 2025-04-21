@@ -11,13 +11,7 @@ const WhyChooseUs = () => {
             Nos Engagements pour Votre Réussite
           </h2>
           <p className="text-lg text-gray-500 max-w-4xl mx-auto leading-relaxed">
-            Explorez ce qui fait la singularité de notre plateforme et pourquoi elle
-            est choisie par des milliers d'apprenants pour atteindre leurs objectifs
-            professionnels et personnels. Nous mettons à votre disposition une
-            méthode d'apprentissage interactive, avec un accès flexible aux cours et
-            des formateurs experts dans leur domaine. Notre mission est de vous
-            fournir les outils et les compétences nécessaires pour réussir, tout en
-            respectant votre emploi du temps et vos ambitions.
+          Formez-vous à votre rythme avec des cours en ligne clairs, pratiques et animés par des pros du bâtiment.
           </p>
         </div>
 
