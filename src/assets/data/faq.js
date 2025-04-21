@@ -1,29 +1,27 @@
 export const faq = [
   {
-    question: "Comment puis-je demander une ordonnance?",
+    question: "Quels types de formations proposez-vous ?",
     answer:
-      "Pour demander une ordonnance, vous pouvez vous rendre au laboratoire de votre choix et renseigner les informations nécessaires.",
+      "Nous proposons des formations spécialisées dans le secteur du bâtiment : sécurité sur les chantiers, techniques de construction, efficacité énergétique, et bien plus encore.",
   },
   {
-    question:
-      "Comment puis-je trouver un laboratoire spécialisé dans le médecine du travail?",
+    question: "Vos formations sont-elles accessibles à distance ?",
     answer:
-      "Pour trouver un laboratoire spécialisé dans le médecine du travail, vous pouvez consulter notre page de recherche ou utiliser les cartes de laboratoires disponibles sur notre site web.",
+      "Oui, toutes nos formations sont disponibles en ligne, accessibles 24h/24 depuis n’importe quel appareil connecté à Internet.",
+  },
+ /* {
+    question: "Comment s’inscrire à une formation ?",
+    answer:
+      "Il vous suffit de créer un compte, choisir la formation souhaitée et suivre les instructions pour finaliser votre inscription.",
+  },*/
+  {
+    question: "Les formations sont-elles certifiantes ?",
+    answer:
+      "Oui, à la fin de chaque formation, une certification vous est délivrée si vous avez validé les modules requis.",
   },
   {
-    question:
-      "Comment puis-je obtenir un certificat de sécurité professionnelle?",
+    question: "Puis-je faire financer ma formation ?",
     answer:
-      "Pour obtenir un certificat de sécurité professionnelle, vous pouvez vous rendre au laboratoire de votre choix et renseigner les informations nécessaires.",
-  },
-  {
-    question: "Comment puis-je obtenir un certificat de compétences de santé?",
-    answer:
-      "Pour obtenir un certificat de compétences de santé, vous pouvez vous rendre au laboratoire de votre choix et renseigner les informations nécessaires.",
-  },
-  {
-    question: "Comment puis-je obtenir un certificat de diplôme?",
-    answer:
-      "Pour obtenir un certificat de diplôme, vous pouvez vous rendre au laboratoire de votre choix et renseigner les informations nécessaires.",
+      "Oui, certaines formations peuvent être financées via votre CPF ou par l'intermédiaire de votre employeur. Contactez-nous pour plus d’informations.",
   },
 ];

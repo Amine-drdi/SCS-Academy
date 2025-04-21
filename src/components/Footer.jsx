@@ -12,18 +12,25 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-12">
           {/* Bloc SCS Academy */}
           <div className="flex gap-5 items-start">
-            <img src={logo} alt="SCS Academy" className="w-32 h-auto object-contain" />
+            <NavLink to="/">
+            <img src={logo} alt="SCS Academy" className="w-32 h-full object-contain" />
+            </NavLink>
             <p className="text-gray-300 text-sm">
-              SCS Academy is a training organization dedicated to enhancing the skills of professionals and businesses.
-            </p>
+            SCS Academy est un organisme de formation spécialisé<br/>
+             dans le développement des compétences des professionnels du bâtiment.</p>
           </div>
 
           {/* Bloc Qualiopi */}
           <div className="flex gap-5 items-start">
             <img src="/images/logo-qualiopi.jpeg" alt="Qualiopi" className="w-32 h-auto object-contain" />
             <p className="text-gray-300 text-sm">
-              Our organization is Qualiopi certified for training actions.
-            </p>
+                Notre organisme est certifié Qualiopi
+                <br /> pour les actions de formation (L.6313-1 - 1°).
+                <br /> Cette certification atteste de la qualité des processus que
+                <br /> nous mettons en œuvre pour accompagner nos clients
+                <br /> dans leur montée en compétences,conformément
+                <br /> au référentiel national de certification qualité.
+              </p>
           </div>
         </div>
 

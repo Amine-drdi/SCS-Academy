@@ -9,7 +9,7 @@ import { HiChevronDown } from "react-icons/hi";
 import {
   btpCategories,
 } from "../assets/data/categories";
-import logo from "../assets/img/logo.png"
+import logo from "../assets/img/logo-scs.png"
 const Header = () => {
   const { activeMenu, setActiveMenu } =
     useAppContext();
@@ -56,7 +56,7 @@ const Header = () => {
           </button>
           <NavLink to="/" className="">
             <img
-              className="h-48 w-96"
+              className="h-auto w-96"
               src={logo}
               alt="SCS Academy"
             />
